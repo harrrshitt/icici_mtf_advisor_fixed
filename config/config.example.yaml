@@ -1,0 +1,22 @@
+breeze:
+  api_key: "YOUR_API_KEY"
+  api_secret: "YOUR_API_SECRET"
+  session_token: "YOUR_SESSION_TOKEN"
+
+finance:
+  mtf_interest_rate_annual: 0.0965
+  fd_rate_annual: 0.075
+  inflation_rate_annual: 0.06
+  brokerage_per_order: 20.0
+  tax_and_fees_buffer_rate: 0.0015
+
+decision:
+  benchmark_mode: "max_fd_or_inflation"
+  default_expected_return_pct_annual: 0.12
+  min_sell_edge_pct: 0.005
+
+reporting:
+  output_dir: "outputs"
+
+runtime:
+  trade_lookback_days: 365

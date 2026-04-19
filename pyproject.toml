@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icici-mtf-advisor"
+version = "0.2.0"
+description = "Daily ICICI Direct MTF hold/sell advisor"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "breeze-connect",
+  "pyyaml",
+  "pandas",
+]
+
+[tool.setuptools.packages.find]
+include = ["icici_mtf_advisor*"]
